@@ -1,0 +1,6 @@
+## Create a new command in Linux bash environment
+##### Enter these lines in bash env.
+create (){
+  touch "$1"
+  chmod "$2" "$1"
+}
